@@ -8,11 +8,23 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+      fontFamily: {
+        sans: ['var(--font-montserrat)']
       },
+      colors: {
+        'yellow': {
+          '600': '#AD970E',
+          '500': '#C2AA10'
+        },
+        'gray': {
+          '200': '#D8DBDB',
+          '950': '#333333',
+          '800': '#4D4D4D'
+        }
+      },
+      animation: {
+        'bounce-slow': 'bounce 7s linear infinite'
+      }
     },
   },
   plugins: [],
