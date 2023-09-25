@@ -1,7 +1,18 @@
+import { Contact } from "@/Components/Contact";
+import { AboutMe } from "@/Components/Home/AboutMe";
 import { LandingPage } from "@/Components/Home/LandingPage";
 
 export default function Home() {
   return (
-    <LandingPage />
+    <>
+      <LandingPage />
+
+      <div id="about-me">
+        <AboutMe />
+      </div>
+      <div id='contact'>
+        <Contact />
+      </div>
+    </>
   )
 }

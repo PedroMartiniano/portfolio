@@ -13,7 +13,7 @@ export function Navbar() {
 
     return (
         <div className="flex h-20 px-12 py-2 border-b shadow-lg mb-4 sm:mb-0">
-            <img src="/logo2.png" alt="logo" className="cursor-pointer border rounded border-yellow-600" onClick={() => router.push('/')} />
+            <img src="/logo.png" alt="logo" className="cursor-pointer border rounded border-yellow-600" onClick={() => router.push('/')} />
             <div className="flex lg:hidden ml-auto items-center">
                 <Collapsible.Root className="z-20" onOpenChange={setIsNavbarOpen}>
                     <Collapsible.Trigger asChild>
