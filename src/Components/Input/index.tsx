@@ -1,6 +1,9 @@
 'use client'
 
-interface InputProps {
+import { InputHTMLAttributes } from "react";
+
+
+interface InputProps extends InputHTMLAttributes<HTMLInputElement> {
     id: string
     onChange: any;
     value: string;
@@ -13,7 +16,8 @@ const Input: React.FC<InputProps> = ({
     onChange,
     value,
     label,
-    type
+    type,
+    ...props
 }) => {
     return (
         <div className="relative w-full">
@@ -39,6 +43,7 @@ const Input: React.FC<InputProps> = ({
                 peer
             "
                 placeholder=" "
+                {...props}
             />
             <label
                 className="

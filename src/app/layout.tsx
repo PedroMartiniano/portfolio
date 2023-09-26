@@ -14,9 +14,9 @@ const montserrat = Montserrat({ subsets: ['latin'], weight: ['400', '500', '600'
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
-      <body className={`${poppins.className} ${montserrat.variable} bg-gray-200`}>
+      <body className={`${poppins.className} ${montserrat.variable} bg-gray-200 h-screen`}>
         <Navbar />
-        <main className='h-screen px-4 pt-20'>
+        <main className='px-4 border-l-[10px] border-yellow-600'>
           {children}
         </main>
       </body>

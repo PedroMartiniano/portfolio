@@ -1,23 +1,37 @@
+'use client'
+
 import { Button } from "@/Components/Button";
 import { Github, Instagram, Linkedin, Mail } from "lucide-react";
+import Link from "next/link";
+import { useRouter } from "next/navigation";
 
 export function AboutMe() {
+    const router = useRouter()
+
     return (
-        <div className="pt-20">
+        <div className="pt-24">
             <h1 className="font-bold font-sans text-2xl lg:text-3xl mb-8 lg:ml-10">Sobre mim</h1>
             <div className="flex flex-col gap-6 lg:grid lg:grid-cols-2 justify-start items-start min-h-screen p-5">
                 <div className="flex flex-col w-full justify-center items-center">
                     <img src="/foto-perfil.jpeg" alt="foto-perfil" className="rounded-full w-48 h-48 lg:w-72 lg:h-72 shadow-xl" />
                     <div className="flex w-full justify-center items-center gap-1 mt-5">
-                        <Button variant="ghost" className="w-13 cursor-pointer">
-                            <Linkedin />
-                        </Button>
-                        <Button variant="ghost" className="w-13 cursor-pointer">
-                            <Github />
-                        </Button>
-                        <Button variant="ghost" className="w-13 cursor-pointer">
-                            <Instagram />
-                        </Button>
+                        <Link href={'https://www.linkedin.com/in/pedro-paulino-martiniano-bba51024a/'} passHref={true} target="_blanck">
+                            <Button variant="ghost" className="w-13 h-13 cursor-pointer rounded-full">
+                                <Linkedin />
+                            </Button>
+                        </Link>
+
+                        <Link href={'https://github.com/PedroMartiniano'} passHref={true} target="_blanck">
+                            <Button variant="ghost" className="w-13 h-13 cursor-pointer rounded-full">
+                                <Github />
+                            </Button>
+                        </Link>
+
+                        <Link href={'https://www.instagram.com/pedropaulino1/'} passHref={true} target="_blanck">
+                            <Button variant="ghost" className="w-13 h-13 cursor-pointer rounded-full">
+                                <Instagram />
+                            </Button>
+                        </Link>
                     </div>
                 </div>
                 <div className="flex flex-col item-center justify-center">
@@ -45,7 +59,7 @@ export function AboutMe() {
                             </div>
                         </div>
                     </div>
-                    <Button variant="ghost" className="underline rounded-lg text-gray-950 border border-gray-950 ">Conheça meus projetos</Button>
+                    <Button variant="ghost" className="underline rounded-lg text-gray-950 border border-gray-950" onClick={() => router.push('/projects')}>Conheça meus projetos</Button>
                 </div>
             </div>
         </div>
