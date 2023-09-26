@@ -1,4 +1,4 @@
-import { Contact } from "@/Components/Contact";
+import { Contact } from "@/Components/Home/Contact";
 import { AboutMe } from "@/Components/Home/AboutMe";
 import { LandingPage } from "@/Components/Home/LandingPage";
 

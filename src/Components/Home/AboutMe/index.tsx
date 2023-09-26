@@ -3,7 +3,7 @@ import { Github, Instagram, Linkedin, Mail } from "lucide-react";
 
 export function AboutMe() {
     return (
-        <div>
+        <div className="pt-20">
             <h1 className="font-bold font-sans text-2xl lg:text-3xl mb-8 lg:ml-10">Sobre mim</h1>
             <div className="flex flex-col gap-6 lg:grid lg:grid-cols-2 justify-start items-start min-h-screen p-5">
                 <div className="flex flex-col w-full justify-center items-center">

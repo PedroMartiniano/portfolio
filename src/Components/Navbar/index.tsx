@@ -12,7 +12,7 @@ export function Navbar() {
     const [isNavbarOpen, setIsNavbarOpen] = useState(false)
 
     return (
-        <div className="flex h-20 px-12 py-2 border-b shadow-lg mb-4 sm:mb-0">
+        <div className="fixed w-full bg-gray-200 z-50 flex h-20 px-12 py-2 border-b shadow-lg mb-4 sm:mb-0">
             <img src="/logo.png" alt="logo" className="cursor-pointer border rounded border-yellow-600" onClick={() => router.push('/')} />
             <div className="flex lg:hidden ml-auto items-center">
                 <Collapsible.Root className="z-20" onOpenChange={setIsNavbarOpen}>

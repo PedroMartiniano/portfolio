@@ -15,7 +15,7 @@ export function Contact() {
     }
 
     return (
-        <div className="w-full h-screen flex flex-col justify-start items-center mt-14 lg:mt-0">
+        <div className="w-full pt-20 h-screen flex flex-col justify-start items-center mt-14 lg:mt-0">
             <h1 className="font-bold font-sans text-2xl lg:text-3xl mb-8 lg:ml-5 self-start justify-start">Fale comigo</h1>
             <div className="flex flex-col gap-6 justify-start items-start  p-5 pb-20 lg:max-w-[50%] lg:justify-center">
                 <div className="flex flex-col gap-5 w-full justify-center items-center">
