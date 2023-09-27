@@ -16,7 +16,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html lang="en">
       <body className={`${poppins.className} ${montserrat.variable} bg-gray-200 h-screen`}>
         <Navbar />
-        <main className='px-4 border-l-[10px] border-yellow-600'>
+        <main className='px-4 border-l-[12px] border-yellow-600'>
           {children}
         </main>
       </body>

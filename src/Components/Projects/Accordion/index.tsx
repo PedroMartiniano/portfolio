@@ -8,10 +8,10 @@ export function Accordion() {
     const [isAccordionOpen, setIsAccordionOpen] = useState('')
 
     return (
-        <AccordionRadix.Root className='AccordionRoot border border-gray-950 p-2' type='single' collapsible onValueChange={setIsAccordionOpen}>
+        <AccordionRadix.Root className='AccordionRoot border border-gray-950 rounded-md p-2' type='single' collapsible onValueChange={setIsAccordionOpen}>
             <AccordionRadix.Item className='AccordionItem' value='item-1'>
                 <AccordionRadix.AccordionTrigger asChild>
-                    <div className='flex gap-5 cursor-pointer'>
+                    <div className='flex gap-5 cursor-pointer justify-center'>
                         <h3 className='text-md font-bold font-sans text-gray-950'>TESTE ACCORDION</h3>
                         <ChevronDown className={`transition ${isAccordionOpen && 'rotate-180'}`} />
                     </div>
