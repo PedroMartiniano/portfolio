@@ -57,7 +57,7 @@ export function AboutMe() {
                             <div className="relative right-6 w-4 h-4 bg-gray-200 border-2 border-gray-950 rounded-full" />
                             <div className="relative bottom-5">
                                 <h2 className="font-semibold text-lg font-sans">Desenvolvedor Backend</h2>
-                                <p className="text-sm">Iniciei meus estudos aprofundados em backend no começo de 2023, com o NodeJs, e descobri que realmente amava fazer aquilo, tenho também o desejo de aprendender diferentes linguagens backend. Possuo conhecimento prático em criação e manutenção de API's Rest utilizando NodeJs, juntamente com express, fastify e bibliotecas como JWT, zod, Prisma, KnexJs e MySQL2. Possuo conhecimento prévio em banco de dados MySQL, PostgreSQL e MongoDB.</p>
+                                <p className="text-sm">Iniciei meus estudos aprofundados em backend no começo de 2023, com o NodeJs, e descobri que realmente amava fazer aquilo, tenho também o desejo de aprendender diferentes linguagens backend. Possuo conhecimento prático em criação e manutenção de APIs Rest utilizando NodeJs, juntamente com express, fastify e bibliotecas como JWT, zod, Prisma, KnexJs e MySQL2. Possuo conhecimento prévio em banco de dados MySQL, PostgreSQL e MongoDB.</p>
                             </div>
                         </div>
 
