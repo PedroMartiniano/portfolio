@@ -14,8 +14,8 @@ export default function Projects() {
                 <div className="flex flex-col justify-center items-start gap-6 lg:gap-6">
                     <h2 className="text-xl font-sans font-bold text-yellow-600">LearnHub</h2>
                     <p className="text-md lg:text-md text-justify">Este é um de meus principais projetos! Nele, eu constriu uma API Rest para um website de venda de cursos, com funcionalidades como: cadastro de cursos, compra de cursos, cadastro de testes para módulos dos cursos, login de professores e usuários com proteção das rotas por meio de tokens de acesso e muito mais! Foi utilizado o ambiente docker para virtualização do banco de dados enquanto a API estava em desenvolvimento.</p>
-                    <h3 className="text-md font-sans font-semibold">Tecnologias: NodeJs, TypeScript, ExpressJs, JWT{'(JsonWebToken)'}, bcrypt, PrismaORM, MySQL, vitest, supertest, entre outras.</h3>
-                    <Button variant="ghost" className="rounded-lg border border-gray-950 w-80">
+                    <h3 className="text-md font-sans font-semibold">Tecnologias: NodeJs, TypeScript, Express, Zod, JWT, Bcrypt, PrismaORM, MySQL, Vitest, Supertest, entre outras.</h3>
+                    <Button variant="outline" className="rounded-lg w-80">
                         <a href="https://github.com/PedroMartiniano/LearnHub" target="_blank">Acessar meu projeto no GitHub</a>
                     </Button>
                 </div>
@@ -25,15 +25,15 @@ export default function Projects() {
 
             <div className="flex flex-col gap-6 lg:grid lg:grid-cols-2 justify-start items-start p-5 border-b-2 pt-20">
                 <div className="flex flex-col w-full justify-center items-center">
-                    <img src="/ordinis.jpg" alt="foto-projeto" className="w-96 border-2 border-gray-950 rounded-md shadow-inner hover:brightness-90" />
+                    <img src="/ordinis.jpg" alt="foto-projeto" className="w-96 border border-gray-950 rounded-md shadow-inner hover:brightness-90" />
                 </div>
 
                 <div className="flex flex-col justify-center items-start gap-6 lg:gap-6">
                     <h2 className="text-xl font-sans font-bold text-yellow-600">Ordinis</h2>
-                    <p className="text-md lg:text-md text-justify">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem animi consequuntur optio aliquid harum officia. Similique quibusdam voluptas est nesciunt voluptate quae quo, dolor eveniet provident explicabo ipsam soluta ullam!</p>
-                    <h3 className="text-md font-sans font-semibold">Tecnologias: </h3>
-                    <Button variant="ghost" className="rounded-lg underline border border-gray-950 w-80">
-                        <a href="https://github.com/PedroMartiniano/ordinis" target="_blank">Acessar meu projeto no GitHub</a>
+                    <p className="text-md lg:text-md text-justify">API Rest feita para um controle de patrimônio da Creche Municipal de Franca Nossa Senhora da Conceição. Ela inclui funcionalidades como: controle de localização de cada patrimônio pertencente à creche, cadastro de toda manutenção feita pelos patrimônios, assim como registro de todos os prestadores de serviço de manutenção de patriônio da creche, login de funcionario juntamente com middlewares de verificação de permissão de usuário atravéz de token e muito mais!.</p>
+                    <h3 className="text-md font-sans font-semibold">Tecnologias: NodeJs, TypeScript, Express, zod, JWT, Bcrypt, PrismaORM, PostgreSQL</h3>
+                    <Button variant="outline" className="rounded-lg w-80">
+                        <a href="https://github.com/PedroMartiniano/Ordinis" target="_blank">Acessar meu projeto no GitHub</a>
                     </Button>
                 </div>
 
