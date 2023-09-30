@@ -19,7 +19,6 @@ export default function Projects() {
                         <a href="https://github.com/PedroMartiniano/LearnHub" target="_blank">Acessar meu projeto no GitHub</a>
                     </Button>
                 </div>
-
             </div>
             <div className="border-b-2 border-gray-800 mx-10 lg:mx-20 w-auto" />
 
@@ -36,7 +35,6 @@ export default function Projects() {
                         <a href="https://github.com/PedroMartiniano/Ordinis" target="_blank">Acessar meu projeto no GitHub</a>
                     </Button>
                 </div>
-
             </div>
             <div className="border-b-2 border-gray-800 mx-10 lg:mx-20 w-auto" />
 
@@ -47,13 +45,12 @@ export default function Projects() {
 
                 <div className="flex flex-col justify-center items-start gap-6 lg:gap-6">
                     <h2 className="text-xl font-sans font-bold text-yellow-600">Controle de Estoque Atacadista {'(Em Desenvolvimento...)'}</h2>
-                    <p className="text-md lg:text-md text-justify">API Rest em desenvolvimento para o controle de estoque e venda de produtos de um atacado, utilizando o Design Pattern Controller-Service-Repository juntamente com orientação a objetos. A construção do banco de dados foi feita atravez de comandos SQL na plataforma MySQL Workbench e posteriormente conectada a API por meio da biblioteca query-builder KnexJs e a biblioteca mysql2.</p>
+                    <p className="text-md lg:text-md text-justify">API Rest em desenvolvimento para o controle de estoque e venda de produtos de um atacado, utilizando os Designs Patterns Controller-Service-Repository e Factory para simples inversão de dependência, juntamente com orientação a objetos. A construção do banco de dados foi feita atravez de comandos SQL na plataforma MySQL Workbench e posteriormente conectada a API por meio da biblioteca query-builder KnexJs e a biblioteca mysql2.</p>
                     <h3 className="text-md font-sans font-semibold">Tecnologias: NodeJs, TypeScript, Fastify, JWT-Fastify, zod, uuid, Multer, KnexJs, mysql2, Vitest, entre outras!</h3>
                     <Button variant="outline" className="rounded-lg w-80">
                         <a href="https://github.com/PedroMartiniano/Ordinis" target="_blank">Acessar meu projeto no GitHub</a>
                     </Button>
                 </div>
-
             </div>
             <div className="border-b-2 border-gray-800 mx-10 lg:mx-20 w-auto" />
 
@@ -70,8 +67,8 @@ export default function Projects() {
                         <a href="https://github.com/PedroMartiniano/Ordinis" target="_blank">Acessar meu projeto no GitHub</a>
                     </Button>
                 </div>
-
             </div>
+
         </div>
     )
 }
