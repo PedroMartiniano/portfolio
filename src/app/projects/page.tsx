@@ -48,7 +48,7 @@ export default function Projects() {
                     <p className="text-md lg:text-md text-justify">API Rest em desenvolvimento para o controle de estoque e venda de produtos de um atacado, utilizando os Designs Patterns Controller-Service-Repository e Factory para simples inversão de dependência, juntamente com orientação a objetos. A construção do banco de dados foi feita atravez de comandos SQL na plataforma MySQL Workbench e posteriormente conectada a API por meio da biblioteca query-builder KnexJs e a biblioteca mysql2.</p>
                     <h3 className="text-md font-sans font-semibold">Tecnologias: NodeJs, TypeScript, Fastify, JWT-Fastify, zod, uuid, Multer, KnexJs, mysql2, Vitest, entre outras!</h3>
                     <Button variant="outline" className="rounded-lg w-80">
-                        <a href="https://github.com/PedroMartiniano/Ordinis" target="_blank">Acessar meu projeto no GitHub</a>
+                        <a href="https://github.com/PedroMartiniano/Estoque-Mercado" target="_blank">Acessar meu projeto no GitHub</a>
                     </Button>
                 </div>
             </div>
