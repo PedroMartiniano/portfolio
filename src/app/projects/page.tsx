@@ -64,7 +64,7 @@ export default function Projects() {
                     <p className="text-md lg:text-md text-justify">API Rest feita com o mesmo intuíto do projeto LearnHub, porém abordando um diferente Design Pattern, estrutura de pastas, estratégias e tecnologias! Além de todas as funcionalidades do projeto LearnHub original, foram implantadas rotas para cadastro de imagem dos cursos, implantado swagger para documentação das rotas, teste unitários e de intregração, refresh token para reativação automática do token de login do usuário e algumas estratégias de reutilização de código!</p>
                     <h3 className="text-md font-sans font-semibold">Tecnologias: NodeJs, TypeScript, Fastify, JWT-Fastify, PrismaORM, Multer, Swagger, Vitest, MySQL, entre outras!</h3>
                     <Button variant="outline" className="rounded-lg w-80">
-                        <a href="https://github.com/PedroMartiniano/Ordinis" target="_blank">Acessar meu projeto no GitHub</a>
+                        <a href="https://github.com/PedroMartiniano/Learnhub-Fastify" target="_blank">Acessar meu projeto no GitHub</a>
                     </Button>
                 </div>
             </div>
