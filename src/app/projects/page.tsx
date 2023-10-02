@@ -29,7 +29,7 @@ export default function Projects() {
 
                 <div className="flex flex-col justify-center items-start gap-6 lg:gap-6">
                     <h2 className="text-xl font-sans font-bold text-yellow-600">Ordinis</h2>
-                    <p className="text-md lg:text-md text-justify">API Rest feita para um controle de patrimônio da Creche Municipal de Franca Nossa Senhora da Conceição. Ela inclui funcionalidades como: CRUD completo de diversas entidades presentes, controle de localização de cada patrimônio pertencente à creche, cadastro de toda manutenção feita pelos patrimônios, assim como registro de todos os prestadores de serviço de manutenção de patriônio da creche, login de funcionario juntamente com middlewares de verificação de permissão de usuário atravéz de token e muito mais!</p>
+                    <p className="text-md lg:text-md text-justify">API Rest feita para um controle de patrimônio da Creche Municipal de Franca Nossa Senhora da Conceição. Ela inclui funcionalidades como: CRUD completo de diversas entidades presentes, controle de localização de cada patrimônio pertencente à creche, cadastro de toda manutenção feita pelos patrimônios, assim como registro de todos os prestadores de serviço de manutenção de patrimônio da creche, login de funcionario juntamente com middlewares de verificação de permissão de usuário através de token e muito mais!</p>
                     <h3 className="text-md font-sans font-semibold">Tecnologias: NodeJs, TypeScript, Express, zod, JWT, Bcrypt, PrismaORM, PostgreSQL, entre outras!</h3>
                     <Button variant="outline" className="rounded-lg w-80">
                         <a href="https://github.com/PedroMartiniano/Ordinis" target="_blank">Acessar meu projeto no GitHub</a>
@@ -45,7 +45,7 @@ export default function Projects() {
 
                 <div className="flex flex-col justify-center items-start gap-6 lg:gap-6">
                     <h2 className="text-xl font-sans font-bold text-yellow-600">Controle de Estoque Atacadista {'(Em Desenvolvimento...)'}</h2>
-                    <p className="text-md lg:text-md text-justify">API Rest em desenvolvimento para o controle de estoque e venda de produtos de um atacado, utilizando os Designs Patterns Controller-Service-Repository e Factory para simples inversão de dependência, juntamente com orientação a objetos. A construção do banco de dados foi feita atravez de comandos SQL na plataforma MySQL Workbench e posteriormente conectada a API por meio da biblioteca query-builder KnexJs e a biblioteca mysql2.</p>
+                    <p className="text-md lg:text-md text-justify">API Rest em desenvolvimento para o controle de estoque e venda de produtos de um atacado, utilizando os Designs Patterns Controller-Service-Repository e Factory para simples inversão de dependência, juntamente com orientação a objetos. A construção do banco de dados foi feita através de comandos SQL na plataforma MySQL Workbench e posteriormente conectada a API por meio da biblioteca query-builder KnexJs e a biblioteca mysql2.</p>
                     <h3 className="text-md font-sans font-semibold">Tecnologias: NodeJs, TypeScript, Fastify, JWT-Fastify, zod, uuid, Multer, KnexJs, mysql2, Vitest, entre outras!</h3>
                     <Button variant="outline" className="rounded-lg w-80">
                         <a href="https://github.com/PedroMartiniano/Estoque-Mercado" target="_blank">Acessar meu projeto no GitHub</a>
