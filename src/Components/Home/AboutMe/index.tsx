@@ -27,9 +27,9 @@ export function AboutMe() {
                             </Button>
                         </Link>
 
-                        <Link href={'https://www.instagram.com/pedropaulino1/'} passHref={true} target="_blanck">
+                        <Link href={'/#contact'} passHref={true}>
                             <Button variant="ghost" className="w-13 h-13 cursor-pointer rounded-full">
-                                <Instagram />
+                                <Mail />
                             </Button>
                         </Link>
                     </div>

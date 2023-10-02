@@ -7,6 +7,7 @@ import { Button } from "@/Components/Button";
 import emailjs from '@emailjs/browser'
 import toast, { Toaster } from "react-hot-toast";
 import { useLoading } from "@/Context/LoadingContext";
+import { Mail } from "lucide-react";
 
 export function ContactContent() {
     const [name, setName] = useState('')
@@ -57,7 +58,7 @@ export function ContactContent() {
                 <div className="flex flex-col gap-5 w-full justify-center items-center">
                     <h2>
                         Preencha o formulário para entrar em contato comigo pelo email
-                        {' '} <span className="font-semibold">pedropmartiniano@gmail.com</span>
+                        {' '} <span className="font-semibold w-full flex gap-1"><Mail />pedropmartiniano@gmail.com</span>
                     </h2>
                     <form ref={form} onSubmit={handleSendEmail} id="contact-form" className="flex flex-col gap-5 w-full justify-center items-center">
                         <Input id="name" name="from_name" label='Nome' value={name} onChange={(e: any) => setName(e.target.value)} />
