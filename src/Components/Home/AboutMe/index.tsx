@@ -65,15 +65,16 @@ export function AboutMe() {
                             <div className="relative right-6 w-4 h-4 bg-gray-200 border-2 border-gray-950 rounded-full" />
                             <div className="relative bottom-5">
                                 <h2 className="font-semibold text-lg font-sans">Experiência</h2>
-                                <div className="flex">
-                                    <div className=" mt-2 mr-2 w-2 h-2 rounded-full bg-black"></div>
-                                    <h3 className="font-medium text-[16px] font-sans">Estagiário desenvolvedor Backend - <span className="italic text-[14px]">ACT - Ciência, tecnologia e inovação.</span></h3>
+                                <div className="flex bg-[#c3c4c8] p-[2px] rounded-xl">
+                                    <div className="mt-2 mr-2 ml-1 w-2 h-2 rounded-full bg-black"></div>
+                                    <h3 className="font-medium text-[15px] font-sans">Estagiário desenvolvedor Backend - <span className="italic text-[14px]">ACT - Ciência, tecnologia e inovação.</span></h3>
                                 </div>
                                 <p className="my-1 text-sm ml-4 text-justify">Projeto de formação de desenvolvedores que tive o prazer de fazer parte durante todos os 3 meses de duração. Fui responsável por desenvolver e dar manutenção em APIs Rest utilizando o runtime NodeJs, TypeScript e Express, juntamente com estrátegias de otimização de código como clean code, e POO, também metodologias ágeis como Scrum e Kanban e realização de testes unitários e testes de integração. Porém também tive contato com a criação de aplicações web utilizando ReactJs e NextJs, assim como o portfólio que você está lendo nesse momento!</p>
-                                <div className="flex">
-                                    <div className="mt-2 mr-2 w-2 h-2 rounded-full bg-black"></div>
-                                    <h3 className="font-medium text-[16px] font-sans">Em busca de uma nova oportunidade...</h3>
+                                <div className="flex bg-[#c3c4c8] p-[2px] rounded-xl">
+                                    <div className="mt-2 mr-2 ml-1 w-2 h-2 rounded-full bg-black"></div>
+                                    <h3 className="font-medium text-[15px] font-sans">Em busca de uma nova oportunidade...</h3>
                                 </div>
+                                <p className="my-1 text-sm ml-4 text-justify"></p>
                             </div>
                         </div>
 
