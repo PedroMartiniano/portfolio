@@ -15,7 +15,7 @@ export function AboutMe() {
                 <div className="flex flex-col w-full justify-center items-center">
                     <img src="/foto-perfil.jpeg" alt="foto-perfil" className="rounded-full w-48 h-48 lg:w-72 lg:h-72 shadow-xl" />
                     <div className="flex w-full justify-center items-center gap-1 mt-5">
-                        <Link href={'https://www.linkedin.com/in/pedro-paulino-martiniano-bba51024a/'} passHref={true} target="_blanck">
+                        <Link href={'https://www.linkedin.com/in/pedro-paulino-martiniano/'} passHref={true} target="_blanck">
                             <Button variant="ghost" className="w-13 h-13 cursor-pointer rounded-full">
                                 <Linkedin />
                             </Button>
