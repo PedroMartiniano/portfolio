@@ -67,14 +67,14 @@ export function AboutMe() {
                                 <h2 className="font-semibold text-lg font-sans">Experiência</h2>
                                 <div className="flex bg-[#c3c4c8] p-[2px] rounded-xl">
                                     <div className="mt-2 mr-2 ml-1 w-2 h-2 rounded-full bg-black"></div>
-                                    <h3 className="font-medium text-[15px] font-sans">Estagiário desenvolvedor Backend - <span className="italic text-[14px]">ACT - Ciência, tecnologia e inovação.</span></h3>
+                                    <h3 className="font-medium text-[15px] font-sans">Estágio em desenvolvimento back-end - <span className="italic text-[14px]">ACT - Ciência, tecnologia e inovação.</span></h3>
                                 </div>
                                 <p className="my-1 text-sm ml-4 text-justify">Projeto de formação de desenvolvedores que tive o prazer de fazer parte durante todos os 3 meses de duração. Fui responsável por desenvolver e dar manutenção em APIs Rest utilizando o runtime NodeJs, TypeScript e Express, juntamente com estrátegias de otimização de código como clean code, e POO, também metodologias ágeis como Scrum e Kanban e realização de testes unitários e testes de integração. Porém também tive contato com a criação de aplicações web utilizando ReactJs e NextJs, assim como o portfólio que você está lendo nesse momento!</p>
                                 <div className="flex bg-[#c3c4c8] p-[2px] rounded-xl">
                                     <div className="mt-2 mr-2 ml-1 w-2 h-2 rounded-full bg-black"></div>
-                                    <h3 className="font-medium text-[15px] font-sans">Em busca de uma nova oportunidade...</h3>
+                                    <h3 className="font-medium text-[15px] font-sans">Estágio em desenvolvimento back-end - <span className="italic text-[14px]">CCM Tecnologia</span></h3>
                                 </div>
-                                <p className="my-1 text-sm ml-4 text-justify"></p>
+                                <p className="my-1 text-sm ml-4 text-justify">Em um treinamento intensivo para utilizar tecnologias como python e django para o desenvolvimento back-end.</p>
                             </div>
                         </div>
 
