@@ -4,8 +4,8 @@ import type { Metadata } from 'next'
 import { Poppins, Montserrat } from 'next/font/google'
 
 export const metadata: Metadata = {
-  title: 'Portfólio Pedro',
-  description: "This is Pedro's portfólio",
+  title: 'Portfolio Pedro',
+  description: "This is Pedro Paulino Martiniano portfolio",
 }
 
 const poppins = Poppins({ subsets: ['latin'], weight: ['400', '500', '600', '700'] })
