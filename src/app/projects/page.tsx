@@ -13,7 +13,7 @@ export default function Projects() {
 
                 <div className="flex flex-col justify-center items-start gap-6 lg:gap-6">
                     <h2 className="text-xl font-sans font-bold text-yellow-600">Controle de Estoque Atacadista</h2>
-                    <p className="text-md lg:text-md text-justify">API Rest em desenvolvimento para o controle de estoque e venda de produtos de um atacado, utilizando os Designs Patterns Controller-Service-Repository e Factory para simples inversão de dependência, juntamente com orientação a objetos. A construção do banco de dados foi feita através de comandos SQL na plataforma MySQL Workbench e posteriormente conectada a API por meio da biblioteca query-builder KnexJs e a biblioteca mysql2. Foi implementada a biblioteca openai para auxílio da inteligência artificial no momento de avaliação de um produto, onde a IA identifica se o comentário postado pelo cliente foi negativo ou positivo. Também implementado testes unitários e de integração para manutenção contínua do software.</p>
+                    <p className="text-md lg:text-md text-justify">API Rest de controle de estoque e venda de produtos de um atacado, utilizando os Designs Patterns Controller-Service-Repository e Factory para melhor controle de injeção de dependência, juntamente com orientação a objetos. A construção do banco de dados foi feita através de scripts DDL no SGBD MySQL Workbench e posteriormente conectada a API por meio da biblioteca query-builder KnexJs e a biblioteca mysql2. Foi implementada a biblioteca openai para análise de sentimentos, onde a IA identifica se o comentário postado pelo cliente foi negativo ou positivo. Também implementado testes unitários e de integração para manutenção contínua do software.</p>
                     <h3 className="text-md font-sans font-semibold">Tecnologias: NodeJs, TypeScript, Fastify, JWT-Fastify, zod, uuid, Multer, KnexJs, mysql2, OpenAI, Vitest, entre outras!</h3>
                     <Button variant="outline" className="rounded-lg w-80">
                         <a href="https://github.com/PedroMartiniano/Estoque-Mercado" target="_blank">Acessar este projeto no GitHub</a>
@@ -28,7 +28,7 @@ export default function Projects() {
                 </div>
 
                 <div className="flex flex-col justify-center items-start gap-6 lg:gap-6">
-                    <h2 className="text-xl font-sans font-bold text-yellow-600">LearnHub</h2>
+                    <h2 className="text-xl font-sans font-bold text-yellow-600">LearnHub - Express</h2>
                     <p className="text-md lg:text-md text-justify">Nesse projeto eu constriu uma API Rest para um website de venda de cursos, com funcionalidades como: CRUD completo de cursos e outras entidades, compra de cursos, cadastro de desafios para cada módulo dos cursos, login de professores e usuários com proteção das rotas por meio de middlewares de autenticação e permissão utilizando tokens JWT e muito mais! Para o design da API, foi utilizado o design pattern Controller-Service, onde optei por nomear o service de Use Case, foi utilizado também o ambiente docker para virtualização do banco de dados MySQL enquanto a API estava em desenvolvimento.</p>
                     <h3 className="text-md font-sans font-semibold">Tecnologias: NodeJs, TypeScript, Express, Zod, JWT, Bcrypt, PrismaORM, MySQL, Vitest, Supertest, entre outras!</h3>
                     <Button variant="outline" className="rounded-lg w-80">
