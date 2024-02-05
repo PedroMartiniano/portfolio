@@ -74,7 +74,7 @@ export function AboutMe() {
                                     <div className="mt-2 mr-2 ml-1 w-2 h-2 rounded-full bg-black"></div>
                                     <h3 className="font-medium text-[15px] font-sans">Estágio em desenvolvimento back-end - <span className="italic text-[14px]">CCM Tecnologia</span></h3>
                                 </div>
-                                <p className="my-1 text-sm ml-4 text-justify">Responsável pelo desenvolvimento e manutenção de API's Rest e Orientadas a Eventos em ambiente de microsserviços utilizando tecnologias como nodejs, python, apache kafka, docker e Aws Lambda.</p>
+                                <p className="my-1 text-sm ml-4 text-justify">Responsável pelo desenvolvimento e manutenção de APIs Rest e Orientadas a Eventos em ambiente de microsserviços utilizando tecnologias como nodejs, python, apache kafka, docker e Aws Lambda.</p>
                             </div>
                         </div>
 
