@@ -14,4 +14,4 @@ npm run dev
 
 Portfólio web feito por mim em NextJs e TypeScript
 
-Link do portfólio online: https://portfolio-pedro-projects.vercel.app/projects
+Link do portfólio online: https://portfolio-pedro-projects.vercel.app/
