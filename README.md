@@ -4,13 +4,13 @@
 git clone https://github.com/PedroMartiniano/portfolio
 ```
 
-## Instalando as dependências do repositório na sua máquina
+## Instalando as dependências do repositório
 
 ```bash
 npm install
 ```
 
-## Rodando o repositório localmente na sua máquina
+## Rodando o repositório localmente
 
 ```bash
 npm run dev
