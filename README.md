@@ -1,4 +1,10 @@
-## Instalando o repositório na sua máquina
+## Clonando o repositório na sua máquina
+
+```bash
+git clone https://github.com/PedroMartiniano/portfolio
+```
+
+## Instalando as dependências do repositório na sua máquina
 
 ```bash
 npm install
