@@ -14,6 +14,7 @@ export function Tabs() {
                 <TabItem route='/#about-me' value='tab2' description='Sobre Mim' isSelected={currentTab === 'tab2'} />
                 <TabItem route='/#contact' value='tab3' description='Contato' isSelected={currentTab === 'tab3'} />
                 <TabItem route='/projects' value='tab4' description='Projetos' isSelected={currentTab === 'tab4'} />
+                <TabItem route='/github' value='tab5' description='GitHub' isSelected={currentTab === 'tab5'} />
             </Tab.List>
         </Tab.Root>
     )
