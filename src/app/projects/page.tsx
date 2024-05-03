@@ -76,8 +76,8 @@ export default function Projects() {
                 </div>
 
                 <div className="flex flex-col justify-center items-start gap-6 lg:gap-6">
-                    <h2 className="text-xl font-sans font-bold text-yellow-600">Estudo framework NestJs <span className="text-sm opacity-70 text-gray-950">{'em desenvolvimento...'}</span></h2>
-                    <p className="text-md lg:text-md text-justify">API Rest feita somente para estudos dos conceitos como decorators, pipes, DTO, guards e interceptors, para a construção de um servidor NodeJs com o framework NestJs de maneira completa. Também para estudo da implementação do token JWT juntamente com verificações de segurança pelos meios que o NestJs disponibiliza, e muitas outra funcionalidades como envio de arquivos, envio de email e implementação em um banco de dados MySQL existente através do PrismaORM.</p>
+                    <h2 className="text-xl font-sans font-bold text-yellow-600">Estudo framework NestJs</h2>
+                    <p className="text-md lg:text-md text-justify">API Rest feita somente para estudos dos conceitos como decorators, pipes, DTO, guards e interceptors, para a construção de um servidor NodeJs com o framework NestJs de maneira completa. Também para estudo da implementação do token JWT juntamente com verificações de segurança pelos meios que o NestJs disponibiliza, e muitas outra funcionalidades como envio de arquivos, envio de email e implementação em um banco de dados MySQL existente através do PrismaORM e TypeORM.</p>
                     <h3 className="text-md font-sans font-semibold">Tecnologias: NodeJs, TypeScript, NestJs, JWT, class-validator, class-transformer, MySQL, Prisma, entre outras!</h3>
                     <Button variant="outline" className="rounded-lg w-80">
                         <a href="https://github.com/PedroMartiniano/estudo-nestjs" target="_blank">Acessar este projeto no GitHub</a>
