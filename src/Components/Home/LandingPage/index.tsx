@@ -2,6 +2,7 @@
 
 import { Button } from "@/Components/Button";
 import { ChevronLeft, ChevronRight } from "lucide-react";
+import { FaGolang, FaNodeJs, FaPython } from "react-icons/fa6";
 import { useRouter } from "next/navigation";
 
 export function LandingPage() {
@@ -15,6 +16,7 @@ export function LandingPage() {
             <div className="flex flex-col gap-6">
                 <h1 className="font-sans font-extrabold text-3xl self-start">Olá, meu nome é <span className="text-yellow-600">Pedro Paulino Martiniano</span></h1>
                 <h2 className="font-sans font-extrabold text-2xl self-start text-yellow-600">{`{ `}Desenvolvedor BackEnd{` }`}</h2>
+                <div className="flex flex-row gap-6"><FaGolang size={50} color="#AD970E"/> <FaNodeJs size={40} color="#AD970E"/> <FaPython size={40} color="#AD970E"/></div>
                 <p className="text-sm text-justify">
                     Seja muito bem vindo ao meu portfólio! Aqui você descobrirá um pouco sobre minhas habilidades, tecnologias que trabalho e projetos feitos por mim até o momento.
                 </p>
