@@ -65,16 +65,25 @@ export function AboutMe() {
                             <div className="relative right-6 w-4 h-4 bg-gray-200 border-2 border-gray-950 rounded-full" />
                             <div className="relative bottom-5">
                                 <h2 className="font-semibold text-lg font-sans">Experiência</h2>
+
                                 <div className="flex bg-[#c3c4c8] p-[2px] rounded-xl">
                                     <div className="mt-2 mr-2 ml-1 w-2 h-2 rounded-full bg-black"></div>
-                                    <h3 className="font-medium text-[15px] font-sans">Estágio em desenvolvimento back-end - <span className="italic text-[14px]">ACT - Ciência, tecnologia e inovação.</span></h3>
+                                    <h3 className="font-medium text-[15px] font-sans">Desenvolvedor Back-End Júnior - <span className="italic text-[14px]">CCM Tecnologia</span></h3>
                                 </div>
-                                <p className="my-1 text-sm ml-4 text-justify">Projeto de formação de desenvolvedores que tive o prazer de fazer parte durante todos os 3 meses de duração. Fui responsável por desenvolver e dar manutenção em APIs Rest utilizando NodeJs, TypeScript e Express, juntamente com estrátegias de otimização de código como clean code, e POO, também metodologias ágeis como Scrum e Kanban e realização de testes unitários e testes de integração. Porém também tive contato com a criação de aplicações web front-end utilizando ReactJs e NextJs, assim como o portfólio que você está lendo nesse momento!</p>
+                                <p className="my-1 text-sm ml-4 text-justify">Atuando no time de P&D da CCM Tecnologia, sou responsável pelo desenvolvimento e manutenção de APIs Rest e Orientadas a Eventos de alto nível em ambiente de microsserviços utilizando Golang e Node.js, trabalhando também com serviços de mensageria e plataformas Cloud como AWS e OCI, sempre visando escalabilidade, segurança, e performance, utilizando metodologias como clean code, SOLID principles, Hexagonal Architecture e Scrum. Também fiz parte de projetos de integração de dados sendo responsável por criação de scripts para execução em Cron Jobs utilizando Python e Pandas.</p>
+
                                 <div className="flex bg-[#c3c4c8] p-[2px] rounded-xl">
                                     <div className="mt-2 mr-2 ml-1 w-2 h-2 rounded-full bg-black"></div>
                                     <h3 className="font-medium text-[15px] font-sans">Estágio em desenvolvimento back-end - <span className="italic text-[14px]">CCM Tecnologia</span></h3>
                                 </div>
-                                <p className="my-1 text-sm ml-4 text-justify">Responsável pelo desenvolvimento e manutenção de APIs Rest e Orientadas a Eventos em ambiente de microsserviços utilizando as linguagens NodeJs, TypeScript e Golang, utilizando também serviços de mensageria e plataformas Cloud como AWS e Oracle, sempre visando escalabilidade, segurança, e performance, utilizando metodologias como clean code, SOLID principles e scrum. Também fiz parte de projetos de integração de dados sendo responsável por criação de scripts para execução diária utilizando Python e Pandas.</p>
+                                <p className="my-1 text-sm ml-4 text-justify">Durante meu estágio no time de P&D da CCM Tecnologia, participei no suporte ao desenvolvimento e manutenção de APIs Rest e microsserviços, utilizando Golang e Node.js. Contribuí na implementação de serviços de mensageria e trabalhei com plataformas Cloud como AWS e OCI. Apoiei projetos de integração de dados, criando scripts em Python para execução em Cron Jobs, sempre colaborando com a equipe para aplicar boas práticas como clean code e SOLID principles.</p>
+
+                                <div className="flex bg-[#c3c4c8] p-[2px] rounded-xl">
+                                    <div className="mt-2 mr-2 ml-1 w-2 h-2 rounded-full bg-black"></div>
+                                    <h3 className="font-medium text-[15px] font-sans">Estágio em desenvolvimento back-end - <span className="italic text-[14px]">ACT - Ciência, tecnologia e inovação</span></h3>
+                                </div>
+                                <p className="my-1 text-sm ml-4 text-justify">Projeto de formação de desenvolvedores que tive o prazer de fazer parte durante todos os 3 meses de duração. Fui responsável por desenvolver e dar manutenção em APIs Rest utilizando NodeJs, TypeScript e Express, juntamente com estrátegias de otimização de código como clean code, e POO, também metodologias ágeis como Scrum e Kanban e realização de testes unitários e testes de integração. Porém também tive contato com a criação de aplicações web front-end utilizando ReactJs e NextJs, assim como o portfólio que você está lendo nesse momento!</p>
+
                             </div>
                         </div>
 
