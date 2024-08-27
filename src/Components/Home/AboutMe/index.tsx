@@ -41,7 +41,7 @@ export function AboutMe() {
                             <div className="relative right-6 w-4 h-4 bg-gray-200 border-2 border-gray-950 rounded-full" />
                             <div className="relative bottom-5">
                                 <h2 className="font-semibold text-lg font-sans">Eu</h2>
-                                <p className="text-sm text-justify">Meu nome é Pedro Paulino Martiniano, tenho 19 anos e sou Desenvolvedor Backend Nodejs/Golang/Python! Iníciei no mundo da programação como quase todo mundo, aprendendo HTML, CSS e  JavaScript, e fui progredindo para bibliotecas e frameworks como o ReactJs e NextJs, porém descobri que minha verdadeira paixão é o BackEnd, onde eu estou depositando todas minhas horas de estudo diário para me aprofundar cada dia mais nesse mundo!</p>
+                                <p className="text-sm text-justify">Meu nome é Pedro Paulino Martiniano, tenho 19 anos e sou um desenvolvedor back-end! Iníciei no mundo da programação como quase todo mundo, aprendendo HTML, CSS e  JavaScript, e fui progredindo para bibliotecas e frameworks como o ReactJs e NextJs, porém descobri que minha verdadeira paixão é o BackEnd, onde eu estou depositando todas minhas horas de estudo diário para me aprofundar cada dia mais nesse mundo!</p>
                             </div>
                         </div>
 
@@ -49,7 +49,7 @@ export function AboutMe() {
                             <div className="relative right-6 w-4 h-4 bg-gray-200 border-2 border-gray-950 rounded-full" />
                             <div className="relative bottom-5">
                                 <h2 className="font-semibold text-lg font-sans">Estudante</h2>
-                                <p className="text-sm text-justify">Atualmente estou cursando o 5º semestre de Engenharia de Software na Uni-Facef, onde iniciei meus estudos em fevereiro de 2022, possuo quatro certificações de reconhecimento pela melhor média da minha turma no semestre, e três certificações Banco de Dados Oracle. Também sou apaixonado por aprender coisas novas e aprimorar minhas habilidades, e por isso, estou sempre em busca de cursos e estudos em áreas/assuntos que sei que são de grande importância para minha evolução pessoal, técnica e profissional.</p>
+                                <p className="text-sm text-justify">Atualmente estou cursando o 6º semestre de Engenharia de Software na Uni-FACEF, onde iniciei meus estudos em fevereiro de 2022, com previsão de término em 2025, possuo quatro certificações de reconhecimento pela melhor média da minha turma no semestre, e três certificações Banco de Dados Oracle. Também sou apaixonado por aprender coisas novas e aprimorar minhas habilidades, e por isso, estou sempre em busca de cursos e estudos em áreas/assuntos que sei que são de grande importância para minha evolução pessoal, técnica e profissional.</p>
                             </div>
                         </div>
 
@@ -57,7 +57,7 @@ export function AboutMe() {
                             <div className="relative right-6 w-4 h-4 bg-gray-200 border-2 border-gray-950 rounded-full" />
                             <div className="relative bottom-5">
                                 <h2 className="font-semibold text-lg font-sans">Desenvolvedor Backend</h2>
-                                <p className="text-sm text-justify">Iniciei meus estudos aprofundados em backend no começo de 2023, com o NodeJs, desde lá, os caminhos que segui me levaram a aprender também Golang. Possuo conhecimento prático em criação e manutenção de APIs Restful seguras e escaláveis em ambientes de microsserviços, buscando sempre as tecnologias mais atuais e seguras para me auxiliar nesse processo. Possuo conhecimento prévio em banco de dados MySQL, PostgreSQL e MongoDB. Experiência também em designs patterns, principios SOLID, Arqutetura Hexagonal e POO.</p>
+                                <p className="text-sm text-justify">Iniciei meus estudos aprofundados em backend no começo de 2023, com o NodeJs, desde lá, os caminhos que segui me levaram a aprender Golang, linguagem na qual atuo atualmente. Possuo conhecimento prático em criação e manutenção de APIs Restful seguras e escaláveis em ambientes de microsserviços, buscando sempre as tecnologias mais atuais para me auxiliar nesse processo. Possuo conhecimento prévio em banco de dados SQL e NoSQL. Experiência também em designs patterns, principios SOLID, Arqutetura Hexagonal e POO.</p>
                             </div>
                         </div>
 

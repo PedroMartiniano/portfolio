@@ -8,6 +8,22 @@ export default function Projects() {
 
             <div className="flex flex-col gap-6 lg:grid lg:grid-cols-2 justify-start items-start p-5 border-b-2 pt-20">
                 <div className="flex flex-col w-full justify-center items-center">
+                    <img src="/estruturas-de-dados.jpg" alt="foto-projeto" className="p-5 border-2 border-gray-950 rounded-md shadow-inner hover:brightness-90" width="500" height="400"/>
+                </div>
+
+                <div className="flex flex-col justify-center items-start gap-6 lg:gap-6">
+                    <h2 className="text-xl font-sans font-bold text-yellow-600">Algoritmos & Estruturas de Dados</h2>
+                    <p className="text-md lg:text-md text-justify">Repositório do curso de treinamento em algoritmos avançados e estruturas de dados que realizei com intuíto de me aprimorar como um desenvolvedor. Nesse curso, abordei padrões de resolução de problemas, algoritmos de ordenação, Grafo, Árvore, algoritmos de busca como Binary Search, Algoritmo de Dijkstra e Hash Tables.</p>
+                    <h3 className="text-md font-sans font-semibold">Tecnologias: JavaScript, Typescript, Problem Solving, Algoritms & Data Structures!</h3>
+                    <Button variant="outline" className="rounded-lg w-80">
+                        <a href="https://github.com/PedroMartiniano/data-structure" target="_blank">Acessar este projeto no GitHub</a>
+                    </Button>
+                </div>
+            </div>
+            <div className="border-b-2 border-gray-800 mx-10 lg:mx-20 w-auto" />
+
+            <div className="flex flex-col gap-6 lg:grid lg:grid-cols-2 justify-start items-start p-5 border-b-2 pt-20">
+                <div className="flex flex-col w-full justify-center items-center">
                     <img src="/carrinho.png" alt="foto-projeto" className="p-5 border-2 border-gray-950 rounded-md shadow-inner hover:brightness-90" />
                 </div>
 
