@@ -13,8 +13,8 @@ export default function Projects() {
 
                 <div className="flex flex-col justify-center items-start gap-6 lg:gap-6">
                     <h2 className="text-xl font-sans font-bold text-yellow-600">E-commerce Microsserviços</h2>
-                    <p className="text-md lg:text-md text-justify">Microsserviços construidos utilizando a linguagem Go, com o framework Gin Gonic, para o desenvolvimento de APIs Rest, e para o banco de dados foi utilizado o PostgreSQL. Para o gerenciamento de filas foi utilizado o RabbitMQ e para o gerenciamento do projeto foi utilizado o Docker e Docker Compose. As APIs foram construídas utilizando o padrão de arquitetura hexagonal, SOLID principles, DDD e Clean Architecture.</p>
-                    <h3 className="text-md font-sans font-semibold">Tecnologias: Golang, Gin Gonic, Docker, Docker Compose, PostgreSQL, RabbitMQ, entre outras!</h3>
+                    <p className="text-md lg:text-md text-justify">Microsserviços construidos utilizando a linguagem Go, com o framework Gin Gonic, para o desenvolvimento de APIs Rest, e para o banco de dados foi utilizado o PostgreSQL. Para o gerenciamento de filas foi utilizado o RabbitMQ e para o gerenciamento do projeto foi utilizado o Docker e Docker Compose, e para finalizar, foi utilizado Redis para o cache das consultas frequentes ao banco de dados. As APIs foram construídas utilizando o padrão de arquitetura hexagonal, SOLID principles, DDD e Clean Architecture.</p>
+                    <h3 className="text-md font-sans font-semibold">Tecnologias: Golang, Gin Gonic, Docker, Docker Compose, PostgreSQL, RabbitMQ, Redis, Swagger, entre outras!</h3>
                     <Button variant="outline" className="rounded-lg w-80">
                         <a href="https://github.com/PedroMartiniano/ecommerce" target="_blank">Acessar este projeto no GitHub</a>
                     </Button>
