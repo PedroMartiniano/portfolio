@@ -68,7 +68,13 @@ export function AboutMe() {
 
                                 <div className="flex bg-[#c3c4c8] p-[2px] rounded-xl">
                                     <div className="mt-2 mr-2 ml-1 w-2 h-2 rounded-full bg-black"></div>
-                                    <h3 className="font-medium text-[15px] font-sans">Desenvolvedor Back-End Júnior - <span className="italic text-[14px]">CCM Tecnologia</span> | Agosto 2024 - Atualmente</h3>
+                                    <h3 className="font-medium text-[15px] font-sans">Engenheiro de Software Backend - <span className="italic text-[14px]">Mercado Livre</span> | Junho 2025 - Atualmente</h3>
+                                </div>
+                                <p className="my-1 text-sm ml-4 text-justify">Como parte do time de Excelência Operacional LATAM no Mercado Livre, atuo no design e desenvolvimento de microsserviços de alta performance em Golang, com o objetivo de aprimorar a eficiência, confiabilidade, escalabilidade e qualidade dos processos logísticos internos. Meu trabalho é focado na entrega de soluções robustas de backend que suportam fluxos operacionais essenciais em diversos países da América Latina, garantindo a melhoria contínua e a excelência do nosso ecossistema logístico.</p>
+
+                                <div className="flex bg-[#c3c4c8] p-[2px] rounded-xl">
+                                    <div className="mt-2 mr-2 ml-1 w-2 h-2 rounded-full bg-black"></div>
+                                    <h3 className="font-medium text-[15px] font-sans">Desenvolvedor Back-End Júnior - <span className="italic text-[14px]">CCM Tecnologia</span> | Agosto 2024 - Junho 2025</h3>
                                 </div>
                                 <p className="my-1 text-sm ml-4 text-justify">Atuando no time de P&D da CCM Tecnologia, sou responsável pelo desenvolvimento e manutenção de APIs Rest e Orientadas a Eventos de alto nível em ambiente de microsserviços utilizando Golang e Node.js, trabalhando também com serviços de mensageria e plataformas Cloud como AWS e OCI, sempre visando escalabilidade, segurança, e performance, utilizando metodologias como clean code, SOLID principles, Hexagonal Architecture e Scrum. Também fiz parte de projetos de integração de dados sendo responsável por criação de scripts para execução em Cron Jobs utilizando Python e Pandas. E também desenvolvi aplicações RAG utilizando Python e frameworks de multi-agentes de Inteligência Artificial como LangChain, LangGraph e CrewAI.</p>
 
